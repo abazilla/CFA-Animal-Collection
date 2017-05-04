@@ -1,0 +1,45 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.post {
+    height: 600px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 30px;
+    overflow: hidden;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.main {
+    height: 400px;
+    overflow: hidden;
+}
+
+.text {
+    margin: 15px;
+}
+
+image {
+}
+.subtitle {
+}
+
+.right {
+}

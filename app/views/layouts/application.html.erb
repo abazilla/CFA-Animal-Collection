@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AnimalCollection</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+   <%= link_to 'Home', root_path %>
+   <%= link_to 'Contact', pages_contact_path %>
+   <%= link_to 'Gallery', pages_gallery_path %>
+      
+    <%= yield %>
+  </body>
+</html>
